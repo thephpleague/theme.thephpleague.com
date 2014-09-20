@@ -1,5 +1,12 @@
-@import "normalize";
-@import "mixins";
-@import "fonts";
-@import "template";
-@import "prism";
+// Mixins
+@import "mixins/clearfix";
+@import "mixins/font_face";
+
+// Base
+@import "base/normalize";
+@import "base/fonts";
+@import "base/template";
+@import "base/prism";
+
+// Blocks
+@import "blocks/message";

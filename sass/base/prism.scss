@@ -19,12 +19,12 @@ pre
     -ms-hyphens: none;
     hyphens: none;
 
-    @include respond_min_max(550px, 849px)
+    @media screen and (min-width: 550px) and (max-width: 849px)
     {
         font-size: 14px;
     }
 
-    @include respond_min(800px)
+    @media screen and (min-width: 800px)
     {
         font-size: 16px;
     }

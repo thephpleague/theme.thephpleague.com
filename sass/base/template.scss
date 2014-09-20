@@ -7,7 +7,7 @@ html
 {
     background-color: #19242f;
 
-    @include respond_max(549px)
+    @media screen and (max-width: 549px)
     {
         overflow-x: hidden;
     }
@@ -15,7 +15,7 @@ html
 
 body
 {
-    @include respond_max(549px)
+    @media screen and (max-width: 549px)
     {
         overflow-x: hidden;
     }
@@ -91,7 +91,7 @@ body
         }
     }
 
-    @include respond_max(549px)
+    @media screen and (max-width: 549px)
     {
         padding: 0 15px;
         text-align: center;
@@ -122,7 +122,7 @@ body
         }
     }
 
-    @include respond_min_max(550px, 849px)
+    @media screen and (min-width: 550px) and (max-width: 849px)
     {
         padding: 35px 0 35px 300px;
 
@@ -146,7 +146,7 @@ body
         }
     }
 
-    @include respond_min(850px)
+    @media screen and (min-width: 850px)
     {
 
         padding: 35px 0 35px 300px;
@@ -263,7 +263,7 @@ header
         }
     }
 
-    @include respond_max(549px)
+    @media screen and (max-width: 549px)
     {
         padding: 85px 10px 25px 10px;
 
@@ -300,7 +300,7 @@ header
         }
     }
 
-    @include respond_min(550px)
+    @media screen and (min-width: 550px)
     {
         max-width: 1000px;
         padding: 20px 250px 10px 30px;
@@ -339,7 +339,7 @@ header
         }
     }
 
-    @include respond_min(850px)
+    @media screen and (min-width: 850px)
     {
         padding-left: 45px;
     }
@@ -352,7 +352,7 @@ header
     top: -9999px;
     left: -9999px;
 
-    @include respond_max(549px)
+    @media screen and (max-width: 549px)
     {
         display: block;
 
@@ -407,7 +407,7 @@ label[for="menu"]
         display: none;
     }
 
-    @include respond_max(549px)
+    @media screen and (max-width: 549px)
     {
         display: block;
     }
@@ -421,7 +421,7 @@ main
     transition-duration: .2s;
     transition-property: right;
 
-    @include respond_max(549px)
+    @media screen and (max-width: 549px)
     {
         width: 200%;
         right: 100%;
@@ -430,14 +430,14 @@ main
         background-image: linear-gradient(#2b3d50 100%, #2b3d50 100%);
     }
 
-    @include respond_min_max(550px, 849px)
+    @media screen and (min-width: 550px) and (max-width: 849px)
     {
         background-size: 200px 1px;
         background-repeat: repeat-y;
         background-image: linear-gradient(#2b3d50 100%, #2b3d50 100%);
     }
 
-    @include respond_min(850px)
+    @media screen and (min-width: 850px)
     {
         background-size: 250px 1px;
         background-repeat: repeat-y;
@@ -492,7 +492,7 @@ main
             }
         }
 
-        @include respond_max(549px)
+        @media screen and (max-width: 549px)
         {
             float: left;
             width: 50%;
@@ -525,7 +525,7 @@ main
             }
         }
 
-        @include respond_min_max(550px, 849px)
+        @media screen and (min-width: 550px) and (max-width: 849px)
         {
             float: left;
             width: 200px;
@@ -551,7 +551,7 @@ main
             }
         }
 
-        @include respond_min(850px)
+        @media screen and (min-width: 850px)
         {
             float: left;
             width: 250px;
@@ -693,7 +693,7 @@ main
             }
         }
 
-        @include respond_max(549px)
+        @media screen and (max-width: 549px)
         {
             float: left;
             width: 50%;
@@ -714,7 +714,7 @@ main
             }
         }
 
-        @include respond_min_max(550px, 849px)
+        @media screen and (min-width: 550px) and (max-width: 849px)
         {
             margin: 0 0 30px 0;
             padding: 0 30px;
@@ -732,7 +732,7 @@ main
             }
         }
 
-        @include respond_min(850px)
+        @media screen and (min-width: 850px)
         {
             margin: 0 0 50px 0;
             padding: 0 50px;
@@ -779,18 +779,18 @@ footer
         }
     }
 
-    @include respond_max(549px)
+    @media screen and (max-width: 549px)
     {
         padding: 25px 15px;
         text-align: center;
     }
 
-    @include respond_min_max(550px, 849px)
+    @media screen and (min-width: 550px) and (max-width: 849px)
     {
         padding: 25px 0 25px 30px;
     }
 
-    @include respond_min(850px)
+    @media screen and (min-width: 850px)
     {
         padding: 25px 0 25px 45px;
     }
