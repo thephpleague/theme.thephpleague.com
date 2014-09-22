@@ -1,0 +1,8 @@
+exclude:
+    - CNAME
+    - gulpfile.js
+    - node_modules/
+    - package.json
+    - README.md
+    - sass
+    - scripts/
