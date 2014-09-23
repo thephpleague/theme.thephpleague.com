@@ -19,11 +19,9 @@ $files = [
     '_layouts' => [
         'default.html'
     ],
-    'index' => [
-        'index.md'
-    ],
     '.gitignore',
     'CNAME',
+    'index.md'
 ];
 
 echo "\033[1;33m";
