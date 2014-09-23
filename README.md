@@ -14,7 +14,7 @@ Go to your project folder.
 cd your-project-folder
 ~~~
 
-Create an orphaned [gh-pages](https://help.github.com/articles/creating-project-pages-manually) branch and remove all files.
+Create an orphaned [gh-pages](https://help.github.com/articles/creating-project-pages-manually) branch and remove all files from the old working tree.
 
 ~~~bash
 git checkout --orphan gh-pages
@@ -27,12 +27,26 @@ If you already have a gh-pages branch, simply switch to it.
 git checkout gh-pages
 ~~~
 
-## Create the boilerplate project
+## Install the theme
 
-The following [script](https://github.com/thephpleague/theme.thephpleague.com/blob/gh-pages/scripts/create.php) will add the necessary project files and folders if they don't already exist. It will NOT overwrite or delete any files.
+The following [script](https://github.com/thephpleague/theme.thephpleague.com/blob/gh-pages/scripts/create.php) will add the necessary files and folders for the website theme. It will **NOT** overwrite or delete any existing files.
 
 ~~~bash
 php -r "readfile('https://raw.githubusercontent.com/thephpleague/theme.thephpleague.com/gh-pages/scripts/create.php');" | php
+~~~
+
+The basic file stucture looks like this:
+
+~~~
+├── _data
+│   ├── images.yml
+│   ├── menu.yml
+│   └── project.yml
+├── _layouts
+│   └── default.html
+├── .gitignore
+├── CNAME
+└── index.md
 ~~~
 
 ## Build your website
@@ -45,7 +59,7 @@ jekyll serve --watch
 
 View your development site at [localhost:4000](http://localhost:4000).
 
-## Commit your changes and deploy
+## Commit and deploy
 
 When you're ready to deploy your website, simply push it to the `gh-pages` branch of your GitHub project. You do not need to commit the compiled website, as GitHub Pages does this automatically.
 
