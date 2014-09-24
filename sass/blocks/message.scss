@@ -8,19 +8,6 @@
         padding: 10px 10px 10px 15px;
     }
 
-    &-notice {
-        $color: #e74c3c;
-        color: darken($color, 20%);
-        background: lighten($color, 35%);
-        border-left: solid 4px $color;
-
-        code {
-            background: rgba(white, .8);
-            border-color: lighten($color, 10%);
-            color: darken($color, 20%);
-        }
-    }
-
     &-info {
         $color: #3498db;
         color: darken($color, 20%);
@@ -34,8 +21,21 @@
         }
     }
 
-    &-warning {
+    &-notice {
         $color: #f1c40f;
+        color: darken($color, 20%);
+        background: lighten($color, 35%);
+        border-left: solid 4px $color;
+
+        code {
+            background: rgba(white, .8);
+            border-color: lighten($color, 10%);
+            color: darken($color, 20%);
+        }
+    }
+
+    &-warning {
+        $color: #e74c3c;
         color: darken($color, 20%);
         background: lighten($color, 35%);
         border-left: solid 4px $color;
