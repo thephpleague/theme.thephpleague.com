@@ -21,7 +21,10 @@ gulp.task('css', function () {
 gulp.task('default', function () {
 
     // Watch .scss files
-    gulp.watch('sass/*.scss', ['css']);
+    gulp.watch([
+        'sass/*.scss',
+        'sass/**/*.scss'
+    ], ['css']);
 
     // Create LiveReload server
     var server = livereload();

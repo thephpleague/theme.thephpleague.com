@@ -1,17 +1,49 @@
-.message-info {
-    box-sizing: border-box;
-    margin: 0 auto .3em;
-    padding: .3em;
-    color: #227796;
-    background-color: #B9E6F7;
-    border-radius: .3em;
-}
+.message {
 
-.message-warning {
-    box-sizing: border-box;
-    margin: 0 auto .3em;
-    padding: .3em;
-    color: #B94A48;
-    background-color: #F2DEDE;
-    border-radius: .3em;
+    &-info,
+    &-notice,
+    &-warning {
+        box-sizing: border-box;
+        margin: 1em 0;
+        padding: 10px 10px 10px 15px;
+    }
+
+    &-notice {
+        $color: #e74c3c;
+        color: darken($color, 20%);
+        background: lighten($color, 35%);
+        border-left: solid 4px $color;
+
+        code {
+            background: rgba(white, .8);
+            border-color: lighten($color, 10%);
+            color: darken($color, 20%);
+        }
+    }
+
+    &-info {
+        $color: #3498db;
+        color: darken($color, 20%);
+        background: lighten($color, 35%);
+        border-left: solid 4px $color;
+
+        code {
+            background: rgba(white, .8);
+            border-color: lighten($color, 10%);
+            color: darken($color, 20%);
+        }
+    }
+
+    &-warning {
+        $color: #f1c40f;
+        color: darken($color, 20%);
+        background: lighten($color, 35%);
+        border-left: solid 4px $color;
+
+        code {
+            background: rgba(white, .8);
+            border-color: lighten($color, 10%);
+            color: darken($color, 20%);
+        }
+    }
 }
