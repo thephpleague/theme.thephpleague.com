@@ -39,6 +39,13 @@ body
     position: relative;
     background: #ffffff;
 
+    img
+    {
+        display: block;
+        width: 195px;
+        height: 195px;
+    }
+
     h2
     {
         margin: 0 0 15px 0;
@@ -770,11 +777,11 @@ footer
         a
         {
             color: lighten(#69bbdc, 10%);
-            text-decoration: underline;
+            text-decoration: none;
 
             &:hover
             {
-                color: lighten(#69bbdc, 20%);
+                text-decoration: underline;
             }
         }
     }
