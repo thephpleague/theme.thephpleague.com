@@ -617,17 +617,9 @@ main
             font-weight: normal;
         }
 
-        .filename
+        p
         {
-            margin: 0 0 -1.2em 0;
-            padding: 8px 10px 5px 10px;
-
-            font-family: Consolas, Monaco, 'Andale Mono', monospace;
-            font-size: 14px;
-            line-height: 1;
-            color: lighten(black, 35%);
-            background: #dcdddd;
-            border-radius: 2px 2px 0 0;
+            margin: 15px 0;
         }
 
         a
@@ -637,7 +629,7 @@ main
 
             &:hover
             {
-                color: darken(#6abcdd, 15%);
+                color: darken(#6abcdd, 20%);
             }
         }
 
@@ -657,6 +649,31 @@ main
             border-radius: 2px;
             background: #f5f6f7;
             border: solid #dcdddd 1px;
+        }
+
+        table
+        {
+            width: 100%;
+
+            td,
+            th {
+                padding: 2px 0;
+                text-align: left;
+                border-bottom: solid 1px #ccc;
+            }
+        }
+
+        .filename
+        {
+            margin: 0 0 -1.2em 0;
+            padding: 8px 10px 5px 10px;
+
+            font-family: Consolas, Monaco, 'Andale Mono', monospace;
+            font-size: 14px;
+            line-height: 1;
+            color: lighten(black, 35%);
+            background: #dcdddd;
+            border-radius: 2px 2px 0 0;
         }
 
         .quick_links
@@ -734,7 +751,7 @@ main
 
             h2
             {
-                margin: 30px 0 10px 0;
+                margin: 40px 0 10px 0;
                 font-size: 22px;
             }
         }
@@ -755,7 +772,7 @@ main
 
             h2
             {
-                margin: 30px 0 15px 0;
+                margin: 50px 0 15px 0;
                 font-size: 30px;
             }
         }
