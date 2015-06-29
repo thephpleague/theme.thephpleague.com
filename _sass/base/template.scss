@@ -609,7 +609,12 @@ main
             
             a
             {
+                color: #ff4143;
                 text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
 
@@ -623,7 +628,12 @@ main
 
             a
             {
+                color: #ff4143;
                 text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
 
