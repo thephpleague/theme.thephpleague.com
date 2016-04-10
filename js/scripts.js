@@ -8,7 +8,7 @@ $(function()
         $.ajax({
             dataType: 'jsonp',
             jsonpCallback: 'phploep_jsonp_callback',
-            url: 'http://thephpleague.com/js/packages.js',
+            url: 'https://thephpleague.com/js/packages.js',
             success: function (packages) {
 
                 $.each(packages, function(index, package) {
