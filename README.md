@@ -1,10 +1,10 @@
 # Quick-start guide
 
-The following document explains how to quickly generate a fully responsive, branded project website for The PHP League. These sites are created using [Jekyll](http://jekyllrb.com/) and are designed to be hosted on [GitHub Pages](http://pages.github.com/).
+The following document explains how to quickly generate a fully responsive, branded project website for The PHP League. These sites are created using [Jekyll](https://jekyllrb.com/) and are designed to be hosted on [GitHub Pages](https://pages.github.com/).
 
 ## Install Jekyll
 
-If you do not yet have Jekyll installed, [do that first](http://jekyllrb.com/docs/installation/).
+If you do not yet have Jekyll installed, [do that first](https://jekyllrb.com/docs/installation/).
 
 ## Create gh-pages branch
 
